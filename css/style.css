@@ -1,0 +1,445 @@
+@charset "UTF-8";
+/*lista de colores */
+/*seccion atf */
+.HeroBanner {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.HeroBanner::after {
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.videoATF {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  object-fit: cover;
+}
+
+.navbar {
+  z-index: 20;
+}
+
+.copy-entrada {
+  position: relative;
+  z-index: 20;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 120px;
+}
+
+h1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.titulo-seccion2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 80px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+}
+.titulo-seccion2:hover {
+  animation: changeTittleColor 3s;
+}
+
+.Container-Por-que-escogernos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 70px 0 70px;
+}
+
+.btn-container-abtus {
+  display: flex;
+  justify-content: center;
+  padding: 0 0 50px 0;
+}
+
+.porQueEscogernos1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.porQueEscogernos2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.porQueEscogernos3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.titulo-abt-us {
+  padding: 10px;
+}
+
+.servicios {
+  background-color: rgba(48, 164, 202, 0.5);
+}
+
+.titulo-seccion3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 80px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0 0 0;
+  flex-wrap: wrap;
+}
+.titulo-seccion3:hover {
+  animation: changeTittleColor 3s;
+}
+
+.containerServicios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridcontainerServicios {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 80px 50px 150px 50px;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.servicio-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.servicioConsultoria .servicioDiseno .servicioCampaña .servicioRedes .servicioShop .servicioInmo {
+  transition-property: all;
+  transition-duration: 1.4s;
+}
+.servicioConsultoria .servicioDiseno .servicioCampaña .servicioRedes .servicioShop .servicioInmo:hover {
+  transform: scale(1.1);
+}
+
+.link-servicios {
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.link-servicios:hover {
+  color: violet;
+}
+
+.linkServicio6 {
+  align-self: center;
+}
+
+/*seccion clientes*/
+.titulo-seccion4 {
+  font-family: "Oswald", sans-serif;
+  font-size: 80px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding: 80px 0 30px 0;
+  flex-wrap: wrap;
+}
+.titulo-seccion4:hover {
+  animation: changeTittleColor 3s;
+}
+
+.clientes {
+  margin-bottom: 40px;
+}
+
+/* fin seccion clientes */
+/*partners*/
+.seccion-partnership {
+  background-color: rgba(48, 164, 202, 0.5);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+
+.titulo-seccion5 {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0 0 0;
+  flex-wrap: wrap;
+}
+.titulo-seccion5:hover {
+  animation: changeTittleColor 3s;
+}
+
+.texto-partners {
+  padding-bottom: 10px;
+}
+
+.container-partners {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 70px;
+}
+
+.grid-item-partners {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/*fin partners*/
+.consulta {
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  padding: 70px 0 0 70px;
+  flex-wrap: wrap;
+}
+.consulta:hover {
+  animation: changeTittleColor 3s;
+}
+
+.container-form {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  padding: 70px 70px 100px 70px;
+}
+
+.containerFooter {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}
+
+.logo {
+  width: 150px;
+  transition-property: all;
+  transition-duration: 2s;
+}
+.logo:hover {
+  transform: scale(1.5);
+}
+
+.logoRedes {
+  width: 50px;
+  margin: 10px;
+}
+
+.direccion,
+.telefono {
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+
+.link-footer {
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+}
+.link-footer:hover {
+  color: violet;
+}
+
+.container-map {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.footerRedes {
+  padding: 100px 150px 150px 300px;
+}
+
+.listRedes {
+  list-style-type: none;
+}
+
+.footerOtrosLinks {
+  padding: 100px 80px;
+}
+
+/*CSS PARA SECCION BLOG */
+.blog {
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: white;
+  margin-top: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.subtituloBlog {
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: white;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 100px 50px 50px 50px;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+}
+
+.gridItem {
+  background-color: #ffffff;
+  padding: 100px;
+  font-size: 30px;
+}
+
+.linksBlog {
+  font-family: "Oswald", sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+.linksBlog:hover {
+  color: blueviolet;
+}
+
+/*mobile first*/
+@media only screen and (max-width: 400px) {
+  .Container-Por-que-escogernos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .containerServicios {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .containerFooter {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .titulo-seccion4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .containerFooter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+Body {
+  background-image: linear-gradient(to bottom, #e6e6e6, white);
+}
+
+/*titulo secciones*/
+@keyframes changeTittleColor {
+  0% {
+    color: black;
+  }
+  50% {
+    color: blueviolet;
+    font-size: 30px;
+  }
+  100% {
+    color: crimson;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

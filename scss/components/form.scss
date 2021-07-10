@@ -1,0 +1,22 @@
+.consulta{
+    @include Conf-Fuentes ($fuente, 50px, none, uppercase, 0px, bold, nth($colores,4));
+    &:hover{
+        animation: changeTittleColor 3s;
+    } 
+    display:flex;
+    justify-content: flex-start;
+    padding: 70px 0 0 70px;
+    flex-wrap: wrap;
+}
+
+.container-form{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    padding: 70px 70px 100px 70px;
+    
+}
+
+
+

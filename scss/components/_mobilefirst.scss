@@ -1,0 +1,35 @@
+/*mobile first*/
+
+@media only screen and (max-width: 400px) {
+    
+    .Container-Por-que-escogernos{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .containerServicios{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .containerFooter{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .titulo-seccion4{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .containerFooter{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,26 @@
+/*lista de colores */
+$colores:
+blueviolet,
+white,
+violet,
+black,
+crimson;
+
+$standard-width: 200px;
+$fuente: 'Oswald', sans-serif;
+
+@mixin Conf-Imagenes($bg-size, $bg-position, $margin-top) {
+    background-size: $bg-size;
+    background-position: $bg-position;
+    margin-top: $margin-top;
+}
+
+@mixin Conf-Fuentes($font, $font-size, $text-decoration, $text-transform, $spacing, $weight, $color) {
+    font-family: $font;
+    font-size: $font-size;
+    text-decoration: $text-decoration;
+    text-transform: $text-transform;
+    letter-spacing: $spacing;
+    font-weight: $weight;
+    color: $color;
+}

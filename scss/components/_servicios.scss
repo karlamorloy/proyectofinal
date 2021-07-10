@@ -1,0 +1,86 @@
+
+
+.servicios{
+    background-color: rgba(48,164,202,0.5);
+    
+}
+
+.titulo-seccion3{
+    @include Conf-Fuentes ($fuente, 80px, none, uppercase, 0px, bold, nth($colores,4));
+    &:hover{
+        animation: changeTittleColor 3s;
+    } 
+    display:flex;
+    justify-content: center;
+    padding: 100px 0 0 0;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.containerServicios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+.gridcontainerServicios{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 80px 50px 150px 50px;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    align-items: center;    
+    justify-content: center;  
+    align-items: center;
+    text-align: center;
+}
+
+
+.servicio-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
+.servicioConsultoria{
+    .servicioDiseno{
+        .servicioCampaña{
+            .servicioRedes{
+                .servicioShop{
+                    .servicioInmo{
+                        transition-property: all;
+                        transition-duration: 1.4s;
+                        &:hover{
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.link-servicios{
+    @include Conf-Fuentes ($fuente, 18px, none, uppercase, 1px, bold, nth($colores,4));
+    &:hover{
+        color: violet;
+    }
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.linkServicio6{
+    align-self: center;
+}
+

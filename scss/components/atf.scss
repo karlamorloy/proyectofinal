@@ -1,0 +1,51 @@
+/*seccion atf */
+
+.HeroBanner{    
+    height: 100vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.HeroBanner::after{
+    width: 100%;
+    height: 100%;
+    content: '';
+    position: absolute;
+    z-index: 10;
+    top:0;
+    left:0;
+    background: rgba(0,0,0,0.8)
+}
+
+.videoATF{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    object-fit: cover;
+}
+
+.navbar{
+    z-index: 20;
+}
+
+.copy-entrada{
+    position: relative;
+    z-index: 20;
+    text-align: center;
+    @include Conf-Fuentes ($fuente, 30px, none, uppercase, 3px, bold, nth($colores, 2)); 
+    margin-bottom: 120px;
+}
+
+h1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+

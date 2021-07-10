@@ -1,0 +1,47 @@
+
+@import 'base/variables';
+@import 'components/atf';
+@import 'components/aboutus';
+@import 'components/servicios';
+@import 'components/clientes';
+@import 'components/form';
+@import 'components/footer';
+@import 'components/blog';
+@import 'components/mobilefirst';
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+Body{
+    background-image: linear-gradient(to bottom, rgb(230, 230, 230), rgb(255, 255, 255));
+}
+
+
+
+
+/*titulo secciones*/
+
+
+
+
+
+@keyframes changeTittleColor{
+    0%{
+        color: black;
+    }
+    50%{
+        color: blueviolet;
+        font-size: 30px;
+    }
+    100%{
+        color: crimson;
+    }
+}
+
+
+
+
+

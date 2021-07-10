@@ -1,0 +1,56 @@
+.containerFooter{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+.logo{
+    width: 150px;
+    transition-property: all;
+    transition-duration: 2s;
+    &:hover{
+    transform: scale(1.5);
+    }
+}
+
+
+.logoRedes{
+    width: 50px;
+    margin: 10px;
+}
+
+.direccion,
+.telefono{
+    color: nth($colores, 2) ;
+    font-family: $fuente;
+}
+
+.link-footer{
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    &:hover{
+        color: violet;
+    }
+}
+
+.container-map{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.footerRedes{
+    padding: 100px 150px 150px 300px;
+}
+
+.listRedes{
+    list-style-type: none;
+}
+
+.footerOtrosLinks{
+    padding: 100px 80px;
+}

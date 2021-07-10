@@ -1,0 +1,61 @@
+
+
+.titulo-seccion2{
+    @include Conf-Fuentes ($fuente, 80px, none, uppercase, 0px, bold, nth($colores,4));
+    &:hover{
+        animation: changeTittleColor 3s;
+    } 
+    display:flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    
+}
+
+.Container-Por-que-escogernos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px 0 70px;
+}
+
+.btn-container-abtus{
+    display: flex;
+    justify-content: center;
+    padding: 0 0 50px 0;
+}
+
+
+.porQueEscogernos1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.porQueEscogernos2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.porQueEscogernos3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.titulo-abt-us{
+    padding: 10px;
+}
+
