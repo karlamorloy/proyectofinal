@@ -34,7 +34,33 @@ Body{
     }
     50%{
         color: blueviolet;
-        font-size: 30px;
+        font-size: 77px;
+    }
+    100%{
+        color: crimson;
+    }
+}
+
+@keyframes changeTittleColorAliados{
+    0%{
+        color: black;
+    }
+    50%{
+        color: blueviolet;
+        font-size: 23px;
+    }
+    100%{
+        color: crimson;
+    }
+}
+
+@keyframes changeTittleColorContacto{
+    0%{
+        color: black;
+    }
+    50%{
+        color: blueviolet;
+        font-size: 48px;
     }
     100%{
         color: crimson;

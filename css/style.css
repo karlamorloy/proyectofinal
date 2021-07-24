@@ -240,7 +240,7 @@ h1 {
   flex-wrap: wrap;
 }
 .titulo-seccion5:hover {
-  animation: changeTittleColor 3s;
+  animation: changeTittleColorAliados 3s;
 }
 
 .texto-partners {
@@ -276,7 +276,7 @@ h1 {
   flex-wrap: wrap;
 }
 .consulta:hover {
-  animation: changeTittleColor 3s;
+  animation: changeTittleColorContacto 3s;
 }
 
 .container-form {
@@ -342,14 +342,19 @@ h1 {
 /*CSS PARA SECCION BLOG */
 .blog {
   font-family: "Oswald", sans-serif;
-  font-size: 50px;
+  font-size: 80px;
+  text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   font-weight: bold;
-  color: white;
-  margin-top: 250px;
+  color: black;
   display: flex;
   justify-content: center;
+  padding-top: 50px;
+  flex-wrap: wrap;
+}
+.blog:hover {
+  animation: changeTittleColor 3s;
 }
 
 .subtituloBlog {
@@ -357,8 +362,8 @@ h1 {
   font-size: 30px;
   letter-spacing: 1px;
   font-weight: bold;
-  color: white;
-  margin-top: 100px;
+  color: black;
+  margin-top: 50px;
   display: flex;
   justify-content: center;
 }
@@ -435,7 +440,31 @@ Body {
   }
   50% {
     color: blueviolet;
-    font-size: 30px;
+    font-size: 77px;
+  }
+  100% {
+    color: crimson;
+  }
+}
+@keyframes changeTittleColorAliados {
+  0% {
+    color: black;
+  }
+  50% {
+    color: blueviolet;
+    font-size: 23px;
+  }
+  100% {
+    color: crimson;
+  }
+}
+@keyframes changeTittleColorContacto {
+  0% {
+    color: black;
+  }
+  50% {
+    color: blueviolet;
+    font-size: 48px;
   }
   100% {
     color: crimson;
