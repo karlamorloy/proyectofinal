@@ -23,7 +23,7 @@
     justify-content: center;
 }
 
-.gridContainer{
+.blogGridContainer{
     display: grid;
     grid-template-columns: auto auto auto;
     margin: 100px 50px 50px 50px;
@@ -31,7 +31,7 @@
     grid-row-gap: 50px;
 }
 
-.gridItem{
+.articleGridItem{
     background-color: #ffffff;
     padding: 100px;
     font-size: 30px;    
