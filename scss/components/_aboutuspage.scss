@@ -1,0 +1,109 @@
+.bannerAboutUs{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 4rem 0;
+}
+
+.containerBannerAboutsUs{
+    height: 40vh;
+    width: 80%;
+    background: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.containerBannerAboutsUs::after{
+    width: 80%;
+    height: 40vh;
+    z-index: 10;
+    content: '';
+    background: rgba(0,0,0,0.8);
+    object-fit: cover;
+    position: absolute;
+    overflow: hidden;
+}
+
+.imagenBannerAboutUs{
+    object-fit: cover;
+    overflow: hidden;
+    z-index: 5;
+    height: 100%;
+    width: 100%;
+}
+
+.tituloAboutUs{ 
+    position: absolute;
+    z-index: 20;
+    text-align: center;
+    @include Conf-Fuentes ($fuente, 4rem, none, uppercase, 3px, bold, nth($colores, 2)); 
+    &:hover{
+        animation: changeTittleColorAboutUs 1s;
+    } 
+}
+
+.bio{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 4rem 0;
+}
+
+.containerBio{
+    width: 40%;
+    display: flex;
+    flex-direction: column  ;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.tituloParrafo{
+    @include Conf-Fuentes ($fuente, 2rem, none, uppercase, 3px, bold, nth($colores, 6)); 
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.parrafoAboutUs{
+    font-size: 1.1rem;
+}
+
+
+/*.blogGridContainer{
+    margin: 2rem auto;
+    max-width: calc(100% - 80px);
+}
+
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.imagenArticulo{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+} */
+
+.containerGridCollage{
+    margin: 2rem auto;
+    max-width: 80%;
+}
+
+.itemCollage{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+
+.contentPics{
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -7,6 +7,7 @@
 @import 'components/form';
 @import 'components/footer';
 @import 'components/blog';
+@import 'components/aboutuspage';
 @import 'components/mobilefirst';
 
 
@@ -67,6 +68,18 @@ Body{
     }
 }
 
+@keyframes changeTittleColorAboutUs{
+    0%{
+        color: white;
+    }
+    50%{
+        color: blueviolet;
+        font-size: 3,9rem;
+    }
+    100%{
+        color: crimson;
+    }
+}
 
 
 
