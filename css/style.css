@@ -534,26 +534,6 @@ h1 {
   font-size: 1.1rem;
 }
 
-/*.blogGridContainer{
-    margin: 2rem auto;
-    max-width: calc(100% - 80px);
-}
-
-.cards-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
-    gap: 2rem;
-    flex-wrap: wrap;
-}
-
-.imagenArticulo{
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    max-width: 100%;
-    height: auto;
-    border-radius: 20px 20px 0 0;
-} */
 .containerGridCollage {
   margin: 2rem auto;
   max-width: 80%;
@@ -570,6 +550,43 @@ h1 {
   width: 350px;
   display: flex;
   flex-wrap: wrap;
+}
+
+.tituloArticulo {
+  font-family: "Oswald", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.bannerBlogArt {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0 4rem 0;
+}
+
+.containerFotoBlog {
+  height: 40vh;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagenBannerBlog {
+  object-fit: cover;
+  overflow: hidden;
+  z-index: 5;
+  height: 100%;
+  width: 100%;
+}
+
+.articleBlogPost {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 4rem 4rem 4rem;
 }
 
 /*mobile first*/

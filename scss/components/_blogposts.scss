@@ -1,0 +1,39 @@
+
+.tituloArticulo{
+    font-family: $fuente;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.bannerBlogArt{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 4rem 0;
+}
+
+.containerFotoBlog{
+    height: 40vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.imagenBannerBlog{
+    object-fit: cover;
+    overflow: hidden;
+    z-index: 5;
+    height: 100%;
+    width: 100%;
+}
+
+.articleBlogPost{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 4rem 4rem 4rem;
+}
