@@ -552,16 +552,17 @@ h1 {
   flex-wrap: wrap;
 }
 
-.tituloArticulo {
+.tituloArticuloPost {
   font-family: "Oswald", sans-serif;
   font-size: 3rem;
   text-align: center;
+  padding-top: 4rem;
 }
 
 .bannerBlogArt {
   display: flex;
   justify-content: center;
-  margin: 2rem 0 4rem 0;
+  margin: 2rem 0 1rem 0;
 }
 
 .containerFotoBlog {
@@ -586,7 +587,23 @@ h1 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 0 4rem 4rem 4rem;
+  padding: 0 8rem 4rem 8rem;
+}
+
+.articleBody {
+  line-height: 2;
+}
+
+.pBlogArticle {
+  text-align: left;
+}
+
+.blogLists {
+  text-align: left;
+}
+
+.articleBlock {
+  padding-bottom: 4rem;
 }
 
 /*mobile first*/
