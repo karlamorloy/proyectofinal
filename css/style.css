@@ -285,6 +285,7 @@ h1 {
   grid-column-gap: 50px;
   grid-row-gap: 50px;
   padding: 70px 70px 100px 70px;
+  flex-wrap: wrap;
 }
 
 .containerFooter {
@@ -546,7 +547,8 @@ h1 {
   column-gap: 10px;
 }
 
-.contentPics {
+.contentPics,
+.contentPics2 {
   width: 350px;
   display: flex;
   flex-wrap: wrap;
@@ -608,21 +610,156 @@ h1 {
 
 /*mobile first*/
 @media only screen and (max-width: 400px) {
-  .Container-Por-que-escogernos {
+  .titulo-seccion4 {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .containerServicios {
-    display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding: 20px 0 30px 0;
   }
 
   .containerFooter {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .imagen-consulta {
+    display: none;
+  }
+
+  .container-partners {
+    display: grid;
+    grid-template-columns: auto;
+    grid-row-gap: 20px;
+  }
+
+  .grid-item-partners {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .Container-Por-que-escogernos {
+    display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px 0 70px;
+  }
+
+  .listRedes {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .footerRedes {
+    padding: 3rem 0 0 0;
+  }
+
+  .footerRedes {
+    display: flex;
+    align-content: flex-end;
+  }
+
+  .footerOtrosLinks {
+    padding-top: 2rem;
+  }
+
+  .titulo-seccion2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .titulo-seccion3 {
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0 0 0;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .consulta {
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-weight: bold;
+    color: black;
+  }
+
+  .mapaDireccion {
+    display: none;
+  }
+
+  .gridcontainerServicios {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 20px 0 100px 0;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .clientes {
+    margin-bottom: 20px;
+  }
+
+  .texto-partners {
+    text-align: center;
+  }
+
+  .servicioConsultoria,
+.servicioDiseno,
+.servicioCampaña,
+.servicioRedes,
+.servicioShop,
+.servicioInmo {
+    width: 100px;
+  }
+
+  .partnership {
+    width: 120px;
+  }
+
+  .logoRedes {
+    width: 40px;
+  }
+
+  .numeros,
+.numeros1 {
+    width: 100px;
   }
 }
 @media only screen and (min-width: 401px) and (max-width: 960px) {
@@ -630,12 +767,184 @@ h1 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-weight: bold;
+    color: black;
   }
 
   .containerFooter {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+
+  .imagen-consulta {
+    display: none;
+  }
+
+  .container-partners {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-column-gap: 70px;
+  }
+
+  .grid-item-partners {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .Container-Por-que-escogernos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px 0 70px;
+  }
+
+  .listRedes {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footerRedes {
+    padding: 3rem 0 0 0;
+  }
+
+  .footerRedes {
+    display: flex;
+    align-content: flex-end;
+  }
+
+  .footerOtrosLinks {
+    padding-top: 2rem;
+  }
+
+  .titulo-seccion2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+  }
+
+  .titulo-seccion3 {
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0 0 0;
+    flex-wrap: wrap;
+  }
+
+  .consulta {
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-weight: bold;
+    color: black;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .tituloAboutUs {
+    font-size: 20px;
+  }
+
+  .itemCollage {
+    display: grid;
+    grid-template-columns: auto;
+    flex-wrap: wrap;
+    column-gap: 10px;
+  }
+
+  .contentPics {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .contentPics2 {
+    display: none;
+  }
+
+  .tituloParrafo {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #212529;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+
+  .containerBio {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tituloArticuloPost {
+    font-size: 25px;
+  }
+
+  .articleBlogPost {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 2rem 2rem 2rem;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .tituloAboutUs {
+    font-size: 40px;
+  }
+
+  .itemCollage {
+    display: grid;
+    grid-template-columns: auto auto;
+    flex-wrap: wrap;
+    column-gap: 10px;
+  }
+
+  .contentPics {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .contentPics2 {
+    display: none;
+  }
+
+  .subtituloBlog {
+    text-align: center;
   }
 }
 * {

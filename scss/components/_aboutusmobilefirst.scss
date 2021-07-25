@@ -1,0 +1,86 @@
+
+@media only screen and (max-width: 400px) {
+    
+    .tituloAboutUs{
+        font-size: 20px;
+    }
+
+    .itemCollage{
+        display: grid;
+        grid-template-columns: auto;
+        flex-wrap: wrap;
+        column-gap: 10px;
+    }
+    
+    .contentPics{
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contentPics2{
+        display: none;
+    }
+
+    .tituloParrafo{
+        @include Conf-Fuentes ($fuente, 1.5rem, none, uppercase, 3px, bold, nth($colores, 6)); 
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+
+    .containerBio{
+        width: 70%;
+        display: flex;
+        flex-direction: column  ;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .tituloArticuloPost{
+        font-size: 25px;
+    }
+    
+    .articleBlogPost{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 2rem 2rem 2rem;
+    }
+
+    
+}
+
+
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  
+    .tituloAboutUs{
+        font-size: 40px;
+    }
+
+    .itemCollage{
+        display: grid;
+        grid-template-columns: auto auto;
+        flex-wrap: wrap;
+        column-gap: 10px;
+    }
+    
+    .contentPics{
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contentPics2{
+        display: none;
+    }
+
+    .subtituloBlog{
+        text-align: center;
+    }
+
+    
+}
